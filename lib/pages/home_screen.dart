@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:workshop/core/constants/colors.dart';
+import 'package:workshop/core/routes/routes_name.dart';
+
+import '../widgets/starter_app_item.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -20,7 +23,7 @@ class HomeScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           //! Remove the comment then add arguments 
-          // StarterAppItem(),
+          // StarterAppItem(imagePath: "home/starterApp.png", title: "Starry Eyes", routesName: RoutesName.starterAppItem), 
           // StarterAppItem(),
           // StarterAppItem(),
           // StarterAppItem(),
