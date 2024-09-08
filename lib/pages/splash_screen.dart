@@ -8,14 +8,14 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Placeholder(
-      child: Container(
+    return Scaffold(
+      body: Container(
         color: AppColor.primary,
         alignment: Alignment.center,
         child: Text(
           "AIO APP",
-          style:
-              TextStyle(color: AppColor.white, decoration: TextDecoration.none),
+          style: TextStyle(
+              color: AppColor.white, fontSize: 60, fontWeight: FontWeight.bold),
         ),
       ),
     );
