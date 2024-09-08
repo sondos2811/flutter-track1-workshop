@@ -1,4 +1,5 @@
 import 'package:basket_app/basket_app.dart';
+import 'package:calculator_app/calculator_app.dart';
 import 'package:flutter/material.dart';
 import 'package:lighter_app/lighter.dart';
 import 'package:workshop/core/routes/routes_name.dart';
@@ -26,7 +27,11 @@ class AppRoute {
         });
       case RoutesName.calculatorApp:
         return MaterialPageRoute(builder: (_) {
-          return const BasketAppScreen();
+          return const CalculatorApp();
+        });
+      case RoutesName.xoApp:
+        return MaterialPageRoute(builder: (_) {
+          return const CalculatorApp();
         });
       default:
         throw Exception('Route not found!');

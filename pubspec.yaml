@@ -36,6 +36,8 @@ dependencies:
     path: ./basket_app
   calculator_app:
     path: ./calculator_app
+  xo_app:
+    path: ./xo_app
   flutter:
     sdk: flutter
 
