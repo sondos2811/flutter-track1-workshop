@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
       initialRoute: RoutesName.home,
-      onGenerateRoute: AppRoute.generate,
+      onGenerateRoute: AppRoute.generate, 
     );
   }
 }
